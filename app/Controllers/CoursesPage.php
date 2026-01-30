@@ -9,12 +9,12 @@ class CoursesPage extends BaseController
 {
     public function index()
     {
-        $model = new CourseModel();
+        $model = new \App\Models\CourseModel();
 
         $category = $this->request->getGet('category');
         $q        = $this->request->getGet('q');
 
-        if ($category && in_array($category, ['produktif','adaptif','normatif'])) {
+        if ($category) {
             $model->where('category', $category);
         }
 
@@ -22,16 +22,21 @@ class CoursesPage extends BaseController
             $model->like('title', $q);
         }
 
-        $courses = $model->paginate(8, 'courses');
+        // ambil total (tanpa reset query)
+        $total = $model->countAllResults(false);
+
+        $courses = $model->paginate(12, 'courses');
         $pager   = $model->pager;
 
         return view('courses/index', [
             'courses'  => $courses,
             'pager'    => $pager,
             'category' => $category,
-            'q'        => $q
+            'q'        => $q,
+            'total'    => $total
         ]);
     }
+
 
     public function detail($id)
     {

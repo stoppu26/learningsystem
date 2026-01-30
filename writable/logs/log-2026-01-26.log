@@ -1,0 +1,934 @@
+DEBUG - 2026-01-26 02:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 02:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:01:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 03:02:02 --> ErrorException: Undefined variable $content
+[Method: GET, Route: admin]
+in APPPATH/Views/layouts/main_login.php on line 12.
+ 1 APPPATH/Views/layouts/main_login.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:02:38 --> ErrorException: Undefined variable $content
+[Method: GET, Route: admin]
+in APPPATH/Views/layouts/main_login.php on line 12.
+ 1 APPPATH/Views/layouts/main_login.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:02:39 --> ErrorException: Undefined variable $content
+[Method: GET, Route: admin]
+in APPPATH/Views/layouts/main_login.php on line 12.
+ 1 APPPATH/Views/layouts/main_login.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:02:39 --> ErrorException: Undefined variable $content
+[Method: GET, Route: admin]
+in APPPATH/Views/layouts/main_login.php on line 12.
+ 1 APPPATH/Views/layouts/main_login.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:02:39 --> ErrorException: Undefined variable $content
+[Method: GET, Route: admin]
+in APPPATH/Views/layouts/main_login.php on line 12.
+ 1 APPPATH/Views/layouts/main_login.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:10:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/footer_login.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/layouts/main_login.php(16): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:10:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/footer_login.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/layouts/main_login.php(16): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:14:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/footer_login.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/layouts/main_login.php(15): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:14:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/footer_login.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/layouts/main_login.php(15): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:14:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/footer_login.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/layouts/main_login.php(15): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:14:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/footer_login.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/layouts/main_login.php(15): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:14:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/footer_login.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/layouts/main_login.php(15): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_login.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:46:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout.php"
+[Method: GET, Route: admin/users]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/AdminController.php(82): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->users()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:46:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout.php"
+[Method: GET, Route: admin/guru-pending]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/AdminController.php(29): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->guruPending()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 03:49:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout.php"
+[Method: GET, Route: admin/users]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/AdminController.php(82): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->users()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 03:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 03:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 04:08:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/sidebar.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/layouts/main_admin.php(14): view()
+ 4 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/layouts/main_admin.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(242): CodeIgniter\View\View->render()
+ 7 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Admin/AdminController.php(66): view()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 04:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 04:21:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main_admin.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 04:21:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main_admin.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Admin/AdminController.php(63): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 04:49:24 --> ErrorException: session_regenerate_id(): Session ID cannot be regenerated when there is no active session
+[Method: GET, Route: logout]
+in SYSTEMPATH/Session/Session.php on line 388.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Session/Session.php(388): session_regenerate_id()
+ 3 APPPATH/Controllers/Auth.php(130): CodeIgniter\Session\Session->regenerate()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->logout()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 04:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 04:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 05:14:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main_admin.php"
+[Method: GET, Route: guru]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/GuruController.php(17): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->dashboard()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 05:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 05:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 06:33:05 --> Error: Class "App\Controllers\Admin\CourseModel" not found
+[Method: GET, Route: admin]
+in APPPATH/Controllers/Admin/AdminController.php on line 64.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\AdminController->dashboard()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 06:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 06:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 07:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 07:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 07:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 07:13:55 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::storeMaterial(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: guru/store]
+in APPPATH/Controllers/GuruController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 07:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 07:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 07:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 07:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 07:28:31 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::create(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:28:32 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::create(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:29:10 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::create(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:29:11 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::create(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:29:12 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::create(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:29:12 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::create(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:29:12 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::create(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:29:12 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::create(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:29:12 --> ArgumentCountError: Too few arguments to function App\Controllers\GuruController::create(), 0 passed in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:30:51 --> ErrorException: Undefined variable $course
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:30:54 --> ErrorException: Undefined variable $course
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:31:13 --> ErrorException: Undefined variable $course
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:31:14 --> ErrorException: Undefined variable $course
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:31:14 --> ErrorException: Undefined variable $course
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:31:15 --> ErrorException: Undefined variable $course
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:31:42 --> ErrorException: Undefined variable $courses
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:31:42 --> ErrorException: Undefined variable $courses
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:33:08 --> ErrorException: Undefined variable $courseId
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:33:09 --> ErrorException: Undefined variable $courseId
+[Method: GET, Route: guru/create]
+in APPPATH/Views/guru/material_create.php on line 9.
+ 1 APPPATH/Views/guru/material_create.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/home/sevi/Documents/github/learningsystem/app/Views/guru/material_create.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1199): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/GuruController.php(30): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 07:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 07:34:55 --> Error: Class "App\Controllers\MaterialModel" not found
+[Method: POST, Route: guru/store]
+in APPPATH/Controllers/GuruController.php on line 76.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 07:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-26 07:35:47 --> mysqli_sql_exception: Column 'id_course' cannot be null in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/BaseModel.php(838): CodeIgniter\Model->doInsert()
+#6 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Model.php(797): CodeIgniter\BaseModel->insert()
+#7 /home/sevi/Documents/github/learningsystem/app/Controllers/GuruController.php(78): CodeIgniter\Model->insert()
+#8 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+#9 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#10 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/sevi/Documents/github/learningsystem/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#14 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('...')
+#15 {main}
+CRITICAL - 2026-01-26 07:35:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_course' cannot be null
+[Method: POST, Route: guru/store]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(838): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(797): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/GuruController.php(78): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:35:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_course' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(838): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(797): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/GuruController.php(78): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:35:47 --> [Caused by] mysqli_sql_exception: Column 'id_course' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(838): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(797): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/GuruController.php(78): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 07:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-26 07:36:53 --> mysqli_sql_exception: Column 'id_course' cannot be null in /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+#4 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/BaseModel.php(838): CodeIgniter\Model->doInsert()
+#6 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Model.php(797): CodeIgniter\BaseModel->insert()
+#7 /home/sevi/Documents/github/learningsystem/app/Controllers/GuruController.php(78): CodeIgniter\Model->insert()
+#8 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+#9 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#10 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/sevi/Documents/github/learningsystem/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#14 /home/sevi/Documents/github/learningsystem/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('...')
+#15 {main}
+CRITICAL - 2026-01-26 07:36:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_course' cannot be null
+[Method: POST, Route: guru/store]
+in SYSTEMPATH/Database/BaseConnection.php on line 684.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(838): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(797): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/GuruController.php(78): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:36:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id_course' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(838): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(797): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/GuruController.php(78): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+CRITICAL - 2026-01-26 07:36:53 --> [Caused by] mysqli_sql_exception: Column 'id_course' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(838): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(797): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/GuruController.php(78): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\GuruController->storeMaterial()
+10 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/sevi/Documents/github/learningsystem/public/index.php')
+DEBUG - 2026-01-26 07:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 07:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 07:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-26 07:59:59 --> ErrorException: Trait "App\Controllers\App\Models\CourseModel" not found
+[Method: GET, Route: guru/create]
+in APPPATH/Controllers/GuruController.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-01-26 08:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-26 08:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
